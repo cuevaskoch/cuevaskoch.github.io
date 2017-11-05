@@ -1,25 +1,13 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+.jumbotron {
+    background-color: #fff;
 }
 
-body {
+html, body, main {
+    height: 100%;
+}
+
+main {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    background-image: url("images/background.jpg");
-    color: white;
-    text-align: center;
-}
-
-h1 {
-    margin: 0;
-}
-
-@media only screen and (min-width: 600px) {
-    body {
-        font-size: 90px;
-    }
 }
