@@ -1,13 +1,23 @@
-.jumbotron {
-    background-color: #fff;
+div.header {
+  background-color: rgb(236, 31, 39);
+  margin-bottom: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
 }
 
-html, body, main {
-    height: 100%;
+
+div.header img {
+  height: 100px;
+  float: left;
 }
 
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+div.header h1 {
+  flex-grow: 1;
+  text-align: center;
+  position: relative;
+  left: -86px;
 }
